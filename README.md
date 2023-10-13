@@ -68,12 +68,12 @@ après connexion. Comme c'est un travail personnel, son URL sera
 
 Nous créons un new Repository, puis nous copions la clefs SSH :
 
-github.com:WebDevCF2m/exe01html.git
+git@github.com:PommeDeuxTerre/exe01html.git
 
 Nous retounons dans notre console :
 
 ```bash
-git remote add origin github.com:WebDevCF2m/exe01html.git 
+git remote add origin git@github.com:PommeDeuxTerre/exe01html.git
 ```
 
 Pour voir si ça a fonctionné :
