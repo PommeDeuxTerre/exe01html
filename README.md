@@ -39,7 +39,7 @@ Les fichiers non suivi sont en rouge.
 Seul les fichiers en **staging** seront sauvegardés
 
 ```bash
-git commit -m"Message du commit"
+git commit -m "Message du commit"
 ```
 
 Un commit est une sauvegarde, on peut y accèder 
@@ -64,17 +64,16 @@ Le fichier est sorti du `staging` et sera affiché en rouge avec `git status`
 
 Nous allons utiliser un dépôt que l'on va créer sur github.com,
 après connexion. Comme c'est un travail personnel, son URL sera
- de ce type : https://github.com/VOTRE_USERNAME/leNomDuProjet
+ de ce type : https://github.com/PommeDeuxTerre/exe01html
 
 Nous créons un new Repository, puis nous copions la clefs SSH :
 
-git@github.com:WebDevCF2m/exe01html.git
-
+github.com:WebDevCF2m/exe01html.git
 
 Nous retounons dans notre console :
 
 ```bash
-git remote add origin git@github.com:WebDevCF2m/exe01html.git
+git remote add origin github.com:WebDevCF2m/exe01html.git 
 ```
 
 Pour voir si ça a fonctionné :
