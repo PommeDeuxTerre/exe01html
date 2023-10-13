@@ -46,6 +46,14 @@ Un commit est une sauvegarde, on peut y accéder avec un `git log` (affichage de
 git add .
 ```
 
+## Pour retirer un fichier en staging
+
+```bash
+git restore --staged README.md
+```
+
+le fichier est sorti du `staging` sera affiché en rouge avec `git status`
+
 ## Ajout d'un serveur distant
 
 Nous allons utiliser un dépot que l'on va créer sur github.com, après connexion. Comme c'est un travail personnel son url sera de ce type: https://github.com/username/directory
